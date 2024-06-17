@@ -1,0 +1,23 @@
+{
+  "name": "remote-video-source",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "repository": "git@github.com:nestarz/remote-video-source.git",
+  "author": "Elias Rhouzlane <elias.rhouzlane@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "@ffprobe-installer/ffprobe": "^1.4.1",
+    "axios": "^0.21.1",
+    "ffprobe-static": "^3.1.0",
+    "file_size_url": "^1.0.4",
+    "file-type": "^17.1.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-fetch": "^3.2.4",
+    "probe-image-size": "^7.2.3",
+    "ytdl-core": "^4.11.5"
+  }
+}
