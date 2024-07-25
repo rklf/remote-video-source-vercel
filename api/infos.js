@@ -2,7 +2,7 @@ import ffprobe from "ffprobe-static";
 import { fileTypeFromStream } from "file-type";
 import ffmpeg from "fluent-ffmpeg";
 import fetch from "node-fetch";
-import ytdl from "ytdl-core";
+import ytdl from "@distube/ytdl-core";
 import probe from "probe-image-size";
 import file_size_url from "./file_size_url.js";
 ffmpeg.setFfprobePath(ffprobe.path);

@@ -1,4 +1,4 @@
-import ytdl from "ytdl-core";
+import ytdl from "@distube/ytdl-core";
 import axios from "axios";
 
 const allowCors = (fn) => async (req, res) => {
